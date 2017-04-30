@@ -11,3 +11,5 @@ For this, I've created a polyfill which you just need to include.
 The standard script is vanilla js, very fast and should work fine.
 
 I've included the original code too, which requires jQuery as a dependancy, and should be more compatible if you have problems with the former.
+
+Demo: https://codepen.io/filtah/pen/EmmmJQ
