@@ -1,0 +1,111 @@
+/* Bulletproof Images */
+.bp {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.bp:after {
+  content: '';
+  display: block;
+
+  /* Default square: */
+  padding-bottom: 100%;
+}
+.bp > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bp .bp-content {
+  padding: 1.5rem;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  
+  /* in case this is not set globally: */
+  box-sizing: border-box;
+}
+
+/* Sizes: */
+.bp.img-25:after,
+.bp.img-4-1:after {
+  padding-bottom: 25%;
+}
+
+.bp.img-50:after,
+.bp.img-2-1:after {
+  padding-bottom: 50%;
+}
+
+.bp.img-56:after,
+.bp.img-16-9:after {
+  padding-bottom: 56.25%;
+}
+
+.bp-img-62:after,
+.bp-img-gold-1:after {
+  padding-bottom: 61.805%;
+}
+
+.bp-img-63:after,
+.bp-img-8-5:after {
+  padding-bottom: 62.5%;
+}
+
+.bp.img-67:after,
+.bp.img-3-2:after {
+  padding-bottom: 66.666666%;
+}
+
+.bp-img-75:after,
+.bp-img-4-3:after {
+  padding-bottom: 75%;
+}
+
+.bp-img-80:after,
+.bp-img-5-4:after {
+  padding-bottom: 80%;
+}
+
+/* -- */
+
+.bp-img-125:after,
+.bp-img-4-5:after {
+  padding-bottom: 125%;
+}
+
+.bp-img-133:after,
+.bp-img-3-4:after {
+  padding-bottom: 133.33333%;
+}
+
+.bp.img-150:after,
+.bp.img-2-3:after {
+  padding-bottom: 150%;
+}
+
+.bp-img-160:after,
+.bp-img-5-8:after {
+  padding-bottom: 160%;
+}
+
+.bp-img-162:after,
+.bp-img-1-gold:after {
+  padding-bottom: 161.8%;
+}
+
+.bp.img-178:after,
+.bp.img-9-16:after {
+  padding-bottom: 177.78%;
+}
+
+.bp.img-200:after,
+.bp.img-1-2:after {
+  padding-bottom: 200%;
+}
+
+.bp.img-400:after,
+.bp.img-1-4:after {
+  padding-bottom: 400%;
+}
